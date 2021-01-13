@@ -1,0 +1,52 @@
+#app ul {
+  list-style: none;
+  display: inline-block;
+  text-align: left;
+}
+
+#app li {
+  font-size: 24px;
+  margin: 12px;
+}
+
+#app li>span.done {
+  text-decoration: line-through;
+}
+
+.container {
+  text-align: center;
+  font-family: 'Osaka', 'メイリオ', 'Meiryo', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3',
+    sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+button {
+  margin-left :20px;
+  display: inline-block;
+  padding: 0.1em 1em;
+  text-decoration: none;
+  background: #668ad8;
+  color: #FFF;
+  border-bottom: solid 1px #627295;
+  border-radius: 3px;
+  vertical-align: middle
+}
+
+button:active {
+  -webkit-transform: translateY(0.5px);
+  transform: translateY(0.5px);
+  border-bottom: none;
+}
+
+
+input[type="text"] {
+  width: 50%;
+  padding: 2px 4px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+  box-sizing: border-box;
+}
