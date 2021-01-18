@@ -30,9 +30,6 @@ const app = new Vue({
       this.todos.splice(index, 1);
       this.saveItems();
     },
-    editItem: function() {
-      alert()
-    },
     saveItems: function() {
       const parsed = JSON.stringify(this.todos);
       localStorage.setItem('todos', parsed);
